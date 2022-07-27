@@ -1,0 +1,25 @@
+{
+    "name": "botble/demo",
+    "description": "A package demo",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Phu Truong"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+          "Botble\\Demo\\": "core/demo/src"
+        }
+      },
+      "extra": {
+        "laravel": {
+          "providers": [
+            "Botble\\Demo\\Providers\\DemoServiceProvider"
+          ]
+        }
+      }
+}
